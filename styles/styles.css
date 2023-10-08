@@ -1,0 +1,86 @@
+
+/* Creating a container with max-width */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Centering certain elements */
+  nav a,
+  h1,
+  h2,
+  button,
+  section {
+    text-align: center;
+  }
+  
+  /* Adding a background div with height */
+  #background {
+    height: 725px;
+    /* You might need to position this div as per your layout requirements */
+  }
+  
+  /* Setting background colors */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav:hover {
+    background-color: #555;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  div {
+    background-color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Setting text (foreground) colors */
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+  }
+  
+  h1,
+  h2 {
+    color: #333; /* Headline color */
+  }
+  
+  button {
+    color: #fff; /* Button text color */
+  }
+  
+  p {
+    color: #555; /* Paragraph text color */
+  }
+  
+  /* Setting logo and icon widths */
+  .logo,
+  .icon {
+    width: 80px;
+  }
+  
+  /* Removing default underline from <a> tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Opening external links in a new tab */
+  /* Assuming social media icons have a specific class like 'social-icon' */
+  .social-icon {
+    target: _blank;
+  }
+  
