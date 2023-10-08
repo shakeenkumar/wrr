@@ -1,84 +1,86 @@
+
+
+/* Creating a container with max-width */
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto; /* Center the container horizontally */
 }
-nav a{
-    text-align: center;
-    color: #252422;
-    text-decoration: none;
+
+/* Centering certain elements */
+nav a,
+h1,
+h2,
+button,
+section {
+  text-align: center;
 }
-nav a:hover{
-    background-color: #252422;
-    color: #e8dab7;
+
+/* Adding a background div with height */
+#background {
+  height: 725px;
+  /* You might need to position this div as per your layout requirements */
 }
-.home-title, h4{
-    color: #e8dab7;
+
+/* Setting background colors */
+body {
+  background-color: #f0f0f0;
 }
-#hero-msg h1{
-    text-align: center;
+
+header {
+  background-color: #333;
+  color: #fff;
 }
-#hero-msg h4{
-    text-align: center;
+
+nav:hover {
+  background-color: #555;
 }
-.button-box{
-    text-align: center;
+
+button {
+  background-color: #007bff;
+  color: #fff;
 }
-main section{
-    text-align: center;
+
+div {
+  background-color: #fff;
 }
-#background{
-    height: 725px;
-    background-color: #e8dab7;
+
+footer {
+  background-color: #333;
+  color: #fff;
 }
-body{
-    background-color: #252422;
+
+/* Setting text (foreground) colors */
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Link color */
 }
-header{
-    background-color: #EB5E28;
+
+h1,
+h2 {
+  color: #333; /* Headline color */
 }
-.book{
-    background-color: #e8dab7;
-    color: #252422;
-    text-decoration: none;
+
+button {
+  color: #fff; /* Button text color */
 }
-.join{
-    background-color: #EB5E28;
-    color: #252422;
+
+p {
+  color: #555; /* Paragraph text color */
 }
-.book:hover{
-    background-color: #EB5E28;
-    color: #252422;
-    text-decoration: none;
+
+/* Setting logo and icon widths */
+.logo,
+.icon {
+  width: 80px;
 }
-.join:hover{
-    background-color: #252422;
-    color: #e8dab7;
+
+/* Removing default underline from <a> tags */
+a {
+  text-decoration: none;
 }
-.msg{
-    background-color: #EB5E28;
-}
-footer{
-    background-color: #EB5E28;
-    color: #252422;
-    font-size: 1.2em;
-}
-footer a{
-    color: #252422;
-    text-decoration: none;
-}
-footer a:hover{
-    color: #e8dab7;
-    text-decoration: underline;
-}
-.msg h2, p{
-    color: #252422;
-}
-.logo{
-    width: 80px;
-}
-.icon{
-    width: 80px;
-}
-h2{
-    color: whitesmoke;
+
+/* Opening external links in a new tab */
+/* Assuming social media icons have a specific class like 'social-icon' */
+.social-icon {
+  target: _blank;
 }
