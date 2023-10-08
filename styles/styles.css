@@ -2,89 +2,73 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+}
 
-/* Creating a container with max-width */
+/* Set max-width and center content */
 #content {
     max-width: 1600px;
-    margin: 0 auto; /* Center the container horizontally */
-  }
-  
-  /* Centering certain elements */
-  nav a,
-  h1,
-  h2,
-  button,
-  section {
+    margin: 0 auto;
+}
+
+/* Center text in navigation links */
+nav a {
     text-align: center;
-  }
-  
-  /* Adding a background div with height */
-  #background {
-    height: 725px;
-    /* You might need to position this div as per your layout requirements */
-  }
-  
-  /* Setting background colors */
-  body {
-    background-color: #f0f0f0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  nav:hover {
-    background-color: #555;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  div {
-    background-color: #fff;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  /* Setting text (foreground) colors */
-  a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Link color */
-  }
-  
-  h1,
-  h2 {
-    color: #333; /* Headline color */
-  }
-  
-  button {
-    color: #fff; /* Button text color */
-  }
-  
-  p {
-    color: #555; /* Paragraph text color */
-  }
-  
-  /* Setting logo and icon widths */
-  .logo,
-  .icon {
-    width: 80px;
-  }
-  
-  /* Removing default underline from <a> tags */
-  a {
+    color: #fcfbfb;
     text-decoration: none;
-  }
-  
-  /* Opening external links in a new tab */
-  /* Assuming social media icons have a specific class like 'social-icon' */
-  .social-icon {
-    target: _blank;
-  }
-  
+}
+
+/* Add background and text colors */
+body {
+    background-color: #fcfbfb;
+    color: #333; /* Text color */
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3; /* Hover text color */
+}
+
+#background {
+    height: 725px;
+    /* Add background-color here */
+}
+
+.msg {
+    /* Add background-color here */
+}
+
+footer {
+    /* Add background-color here */
+}
+
+/* Adjust widths */
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove underlines from links and add underline on hover */
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none;
+}
+
+nav a:hover,
+.book:hover,
+.join:hover {
+    text-decoration: underline;
+}
+
+/* Increase font size for footer text */
+footer p {
+    font-size: 1.2em;
+}
