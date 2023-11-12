@@ -217,7 +217,12 @@ nav {
     justify-self: center;
     align-self: start;
 }
-
+/* Styles for the new page images */
+#river1 {
+    /* Styles for the "river1" image */
+    width: 100%; /* or adjust as needed */
+    box-shadow: 5px 5px 10px #6f7364; /* Example box shadow */
+}
 
 /* Adjust font sizes */
 .book, .join {
