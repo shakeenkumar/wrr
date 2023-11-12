@@ -217,13 +217,62 @@ nav {
     justify-self: center;
     align-self: start;
 }
-/* Styles for the new page images */
-#river1 {
-    /* Styles for the "river1" image */
-    width: 100%; /* or adjust as needed */
-    box-shadow: 5px 5px 10px #6f7364; /* Example box shadow */
+/* River1 Grid */
+#River1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
 }
 
+#River1-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#River1-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.river-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Add or modify these styles in your CSS file */
+
+/* Add or modify these styles in your CSS file */
+
+.salmon {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center items horizontally */
+    padding: 10px;
+}
+
+.salmon h2 {
+    color: #e44d26;
+    margin-bottom: 10px; /* Add margin to create space between heading and paragraph */
+}
+
+.salmon p {
+    color: #333;
+    text-align: center; /* Align the paragraph to the center */
+}
+
+/* Remove white border from the Salmon River image */
+.card-img.salmon {
+    border: none;
+    width: 100%; /* Set the width to 100% to make the image larger */
+    height: 600px; /* Set a specific height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px;
+}
 /* Adjust font sizes */
 .book, .join {
     font-size: 18px;
