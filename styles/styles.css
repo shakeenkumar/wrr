@@ -194,6 +194,46 @@ nav {
     grid-template-columns: repeat(10, 1fr); /* 10 equal columns */
     gap: 20px; /* Adjust the gap between items as needed */
 }
+ /* Subpage-specific styles */
+.subpage {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.subpage h3 {
+    color: #0077cc;
+}
+/* Styles for the new page header */
+.subpage header {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.subpage #logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: start;
+}
+
+
+/* Adjust font sizes */
+.book, .join {
+    font-size: 18px;
+}
+
+.msg p {
+    font-size: 0.8em;
+}
+
+/* ... Other common styles ... */
+
+/* Media queries for responsive design */
+@media screen and (max-width: 900px) {
+    /* ... responsive styles ... */
+}
 
 /* Place the grid items within the main grid */
 .rivers-card {
