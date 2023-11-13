@@ -236,7 +236,7 @@ nav {
     margin-top: 100px;
 }
 
-.river-card {
+.river1-card {
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -246,33 +246,17 @@ nav {
 
 /* Add or modify these styles in your CSS file */
 
-/* Add or modify these styles in your CSS file */
+/* Place the grid items within the main grid */
+.salmon-card {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
+} 
 
-.salmon {
-    display: flex;
-    flex-direction: column; /* Display items in a column */
-    align-items: center; /* Center items horizontally */
-    padding: 10px;
+.About1{
+    grid-column: 1 / span 3;
+    grid-row: 6 / 7;
 }
 
-.salmon h2 {
-    color: #e44d26;
-    margin-bottom: 10px; /* Add margin to create space between heading and paragraph */
-}
-
-.salmon p {
-    color: #333;
-    text-align: center; /* Align the paragraph to the center */
-}
-
-/* Remove white border from the Salmon River image */
-.card-img.salmon {
-    border: none;
-    width: 100%; /* Set the width to 100% to make the image larger */
-    height: 600px; /* Set a specific height for the image */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    border-radius: 10px;
-}
 /* Adjust font sizes */
 .book, .join {
     font-size: 18px;
